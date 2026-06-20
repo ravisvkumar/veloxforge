@@ -1,218 +1,324 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Velox Forge — Velocity Meets Precision</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header id="header">
-        <nav>
-            <div class="logo">
-                <div class="logo-symbol">VF</div>
-                VELOX·FORGE
-            </div>
-            <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#approach">Approach</a></li>
-                <li><a href="#capabilities">Capabilities</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Let's Build</button>
-            <button class="menu-toggle">☰</button>
-        </nav>
+      <nav>
+        <div class="logo">
+          <div class="logo-symbol">VF</div>
+          VELOX·FORGE
+        </div>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#capabilities">Capabilities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="btn-primary"
+          onclick="
+            document
+              .getElementById('contact')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
+        >
+          Let's Build
+        </button>
+        <button class="menu-toggle">☰</button>
+      </nav>
     </header>
 
     <!-- Hero -->
     <section class="hero">
-        <div class="hero-left">
-            <h1>Velocity Meets Precision</h1>
-            <p class="tagline">Digital engineering at the speed of thought, crafted with uncompromising quality.</p>
-            <p>We build custom web & mobile products, AI solutions, automation systems, and growth engines for ambitious businesses. Speed without sacrifice. Precision at scale.</p>
-            <div class="hero-cta">
-                <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Start a Project</button>
-                <button class="btn-secondary">View Our Work</button>
-            </div>
-            <div class="hero-meta">
-                <div>📍 Auckland, NZ</div>
-                <div>🚀 8 Core Services</div>
-                <div>⚡ Est. 2026</div>
-            </div>
+      <div class="hero-left">
+        <h1>Velocity Meets Precision</h1>
+        <p class="tagline">
+          Digital engineering at the speed of thought, crafted with
+          uncompromising quality.
+        </p>
+        <p>
+          We build custom web & mobile products, AI solutions, automation
+          systems, and growth engines for ambitious businesses. Speed without
+          sacrifice. Precision at scale.
+        </p>
+        <div class="hero-cta">
+          <button
+            class="btn-primary"
+            onclick="
+              document
+                .getElementById('contact')
+                .scrollIntoView({ behavior: 'smooth' })
+            "
+          >
+            Start a Project
+          </button>
+          <button class="btn-secondary">View Our Work</button>
         </div>
-        <div class="hero-right">
-            <div class="measurement-frame">
-                <div class="frame-corner tl"></div>
-                <div class="frame-corner tr"></div>
-                <div class="frame-corner bl"></div>
-                <div class="frame-corner br"></div>
-                <div class="frame-ticks top">+98.50</div>
-                <div class="frame-ticks right">+52.25</div>
-                <div class="crosshair"></div>
-                <div class="vf-logo">VF</div>
-            </div>
+        <div class="hero-meta">
+          <div>📍 Auckland, NZ</div>
+          <div>🚀 8 Core Services</div>
+          <div>⚡ Est. 2026</div>
         </div>
+      </div>
+      <div class="hero-right">
+        <div class="measurement-frame">
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="frame-ticks top">36.8485°S</div>
+          <div class="frame-ticks right">174.7633°E</div>
+          <div class="crosshair"></div>
+          <div class="vf-logo">VF</div>
+        </div>
+      </div>
     </section>
 
     <!-- Services -->
     <section class="services" id="services">
-        <h2 class="section-title">What We Build</h2>
-        <p class="section-subtitle">Eight specialised services to transform your business through technology.</p>
-        <div class="service-grid">
-            <div class="service-card scroll-reveal">
-                <h3>Web Design</h3>
-                <p>Premium, conversion-focused websites that establish credibility and drive results for SMEs and established brands.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>Web App Dev</h3>
-                <p>Custom software built for your exact workflow. No off-the-shelf compromises. Ownership included.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>Mobile Apps</h3>
-                <p>iOS & Android solutions that move fast and scale. From MVP to production-grade in weeks, not months.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>AI Solutions</h3>
-                <p>Vendor-neutral AI strategy and deployment. Chatbots, automation, data analysis—practical, measurable ROI.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>MVP & Growth</h3>
-                <p>Lean product development and post-launch scaling. Validate faster, grow smarter, burn runway slower.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>Digital Marketing</h3>
-                <p>SEO, Ads, and content strategies built to generate leads. Transparent reporting tied to actual outcomes.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>IT Solutions & Cloud</h3>
-                <p>Managed infrastructure, migration, and security. Your team focuses on business; we handle the tech.</p>
-            </div>
-            <div class="service-card scroll-reveal">
-                <h3>Automation & Data</h3>
-                <p>Workflow automation and BI dashboards that eliminate manual work and surface hidden business signals.</p>
-            </div>
+      <h2 class="section-title">What We Build</h2>
+      <p class="section-subtitle">
+        Eight specialised services to transform your business through
+        technology.
+      </p>
+      <div class="service-grid">
+        <div class="service-card scroll-reveal">
+          <h3>Web Design</h3>
+          <p>
+            Premium, conversion-focused websites that establish credibility and
+            drive results for SMEs and established brands.
+          </p>
         </div>
+        <div class="service-card scroll-reveal">
+          <h3>Web App Dev</h3>
+          <p>
+            Custom software built for your exact workflow. No off-the-shelf
+            compromises. Ownership included.
+          </p>
+        </div>
+        <div class="service-card scroll-reveal">
+          <h3>Mobile Apps</h3>
+          <p>
+            iOS & Android solutions that move fast and scale. From MVP to
+            production-grade in weeks, not months.
+          </p>
+        </div>
+        <div class="service-card scroll-reveal">
+          <h3>AI Solutions</h3>
+          <p>
+            Vendor-neutral AI strategy and deployment. Chatbots, automation,
+            data analysis—practical, measurable ROI.
+          </p>
+        </div>
+        <div class="service-card scroll-reveal">
+          <h3>MVP & Growth</h3>
+          <p>
+            Lean product development and post-launch scaling. Validate faster,
+            grow smarter, burn runway slower.
+          </p>
+        </div>
+        <div class="service-card scroll-reveal">
+          <h3>Digital Marketing</h3>
+          <p>
+            SEO, Ads, and content strategies built to generate leads.
+            Transparent reporting tied to actual outcomes.
+          </p>
+        </div>
+        <div class="service-card scroll-reveal">
+          <h3>IT Solutions & Cloud</h3>
+          <p>
+            Managed infrastructure, migration, and security. Your team focuses
+            on business; we handle the tech.
+          </p>
+        </div>
+        <div class="service-card scroll-reveal">
+          <h3>Automation & Data</h3>
+          <p>
+            Workflow automation and BI dashboards that eliminate manual work and
+            surface hidden business signals.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Approach -->
     <section class="approach" id="approach">
-        <h2 class="section-title">How We Work</h2>
-        <p class="section-subtitle">A proven process that balances speed with precision.</p>
-        <div class="approach-grid">
-            <div class="approach-step scroll-reveal">
-                <div class="step-number">01</div>
-                <h3>Discover</h3>
-                <p>We map your problem space, constraints, and success metrics. No assumptions. Clear alignment before we code.</p>
-            </div>
-            <div class="approach-step scroll-reveal">
-                <div class="step-number">02</div>
-                <h3>Design</h3>
-                <p>Architecture and interaction design that anticipates scale and user needs. Form follows function, always.</p>
-            </div>
-            <div class="approach-step scroll-reveal">
-                <div class="step-number">03</div>
-                <h3>Build</h3>
-                <p>Engineering-grade code, delivered in sprints. Transparency throughout. You own what we ship.</p>
-            </div>
-            <div class="approach-step scroll-reveal">
-                <div class="step-number">04</div>
-                <h3>Scale</h3>
-                <p>Launch, iterate, and grow. We're here for ongoing optimization, maintenance, and your next big move.</p>
-            </div>
+      <h2 class="section-title">How We Work</h2>
+      <p class="section-subtitle">
+        A proven process that balances speed with precision.
+      </p>
+      <div class="approach-grid">
+        <div class="approach-step scroll-reveal">
+          <div class="step-number">01</div>
+          <h3>Discover</h3>
+          <p>
+            We map your problem space, constraints, and success metrics. No
+            assumptions. Clear alignment before we code.
+          </p>
         </div>
+        <div class="approach-step scroll-reveal">
+          <div class="step-number">02</div>
+          <h3>Design</h3>
+          <p>
+            Architecture and interaction design that anticipates scale and user
+            needs. Form follows function, always.
+          </p>
+        </div>
+        <div class="approach-step scroll-reveal">
+          <div class="step-number">03</div>
+          <h3>Build</h3>
+          <p>
+            Engineering-grade code, delivered in sprints. Transparency
+            throughout. You own what we ship.
+          </p>
+        </div>
+        <div class="approach-step scroll-reveal">
+          <div class="step-number">04</div>
+          <h3>Scale</h3>
+          <p>
+            Launch, iterate, and grow. We're here for ongoing optimization,
+            maintenance, and your next big move.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Capabilities -->
     <section class="capabilities" id="capabilities">
-        <h2 class="section-title">Why Choose Velox Forge</h2>
-        <div class="capability-banner">
-            <h2>Engineering + Design + Strategy</h2>
-            <div class="capability-row">
-                <div class="capability-item">
-                    <div class="capability-icon"></div>
-                    <p><strong>20+ Years Combined Experience</strong> — Deep engineering, SRE, and digital leadership.</p>
-                </div>
-                <div class="capability-item">
-                    <div class="capability-icon"></div>
-                    <p><strong>AI-Ready Architecture</strong> — Every build designed for future ML integration and scale.</p>
-                </div>
-            </div>
-            <div class="capability-row">
-                <div class="capability-item">
-                    <div class="capability-icon"></div>
-                    <p><strong>Code You Own</strong> — No lock-in, no surprise bills. Full ownership and transparency.</p>
-                </div>
-                <div class="capability-item">
-                    <div class="capability-icon"></div>
-                    <p><strong>Local + Global</strong> — Based in Auckland, connected to world-class talent and networks.</p>
-                </div>
-            </div>
+      <h2 class="section-title">Why Choose Velox Forge</h2>
+      <div class="capability-banner">
+        <h2>Engineering + Design + Strategy</h2>
+        <div class="capability-row">
+          <div class="capability-item">
+            <div class="capability-icon"></div>
+            <p>
+              <strong>20+ Years Combined Experience</strong> — Deep engineering,
+              SRE, and digital leadership.
+            </p>
+          </div>
+          <div class="capability-item">
+            <div class="capability-icon"></div>
+            <p>
+              <strong>AI-Ready Architecture</strong> — Every build designed for
+              future ML integration and scale.
+            </p>
+          </div>
         </div>
+        <div class="capability-row">
+          <div class="capability-item">
+            <div class="capability-icon"></div>
+            <p>
+              <strong>Code You Own</strong> — No lock-in, no surprise bills.
+              Full ownership and transparency.
+            </p>
+          </div>
+          <div class="capability-item">
+            <div class="capability-icon"></div>
+            <p>
+              <strong>Local + Global</strong> — Based in Auckland, connected to
+              world-class talent and networks.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Principles -->
     <section class="principles">
-        <h2 class="section-title">Our Principles</h2>
-        <div class="principle-grid">
-            <div class="principle scroll-reveal">
-                <h3>Precision</h3>
-                <p>Every detail matters. We engineer with exactness and care, knowing poor foundations cost more later.</p>
-            </div>
-            <div class="principle scroll-reveal">
-                <h3>Ownership</h3>
-                <p>You own your product, your code, your data. We're partners in growth, not vendors locking you in.</p>
-            </div>
-            <div class="principle scroll-reveal">
-                <h3>Velocity</h3>
-                <p>Fast doesn't mean reckless. We move at speed without compromising quality, clarity, or sustainability.</p>
-            </div>
+      <h2 class="section-title">Our Principles</h2>
+      <div class="principle-grid">
+        <div class="principle scroll-reveal">
+          <h3>Precision</h3>
+          <p>
+            Every detail matters. We engineer with exactness and care, knowing
+            poor foundations cost more later.
+          </p>
         </div>
+        <div class="principle scroll-reveal">
+          <h3>Ownership</h3>
+          <p>
+            You own your product, your code, your data. We're partners in
+            growth, not vendors locking you in.
+          </p>
+        </div>
+        <div class="principle scroll-reveal">
+          <h3>Velocity</h3>
+          <p>
+            Fast doesn't mean reckless. We move at speed without compromising
+            quality, clarity, or sustainability.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Contact -->
     <section class="contact" id="contact">
-        <div class="contact-wrapper">
-            <div class="contact-left">
-                <h2>Ready to Build?</h2>
-                <p style="color: var(--text-dim); margin-bottom: 2rem;">Let's talk about your idea, challenge, or growth goal. We'll sketch a clear path forward.</p>
-                <div class="contact-info">
-                    <label>Email</label>
-                    <p><a href="mailto:hello@veloxforge.studio" style="color: var(--text); text-decoration: none;">hello@veloxforge.studio</a></p>
-                </div>
-                <div class="contact-info">
-                    <label>Location</label>
-                    <p>Auckland, New Zealand<br>36.85°S 174.76°E</p>
-                </div>
-                <div class="contact-info">
-                    <label>Availability</label>
-                    <p>We take on 3–4 projects per quarter to ensure quality focus and delivery speed.</p>
-                </div>
-            </div>
-            <div class="contact-right">
-                <form class="contact-form" onsubmit="return handleSubmit(event)">
-                    <input type="text" placeholder="Your name" required>
-                    <input type="email" placeholder="Email address" required>
-                    <input type="text" placeholder="Company / Project">
-                    <textarea placeholder="Tell us about your project or goal..."></textarea>
-                    <button class="btn-primary" type="submit">Send Inquiry</button>
-                </form>
-            </div>
+      <div class="contact-wrapper">
+        <div class="contact-left">
+          <h2>Ready to Build?</h2>
+          <p style="color: var(--text-dim); margin-bottom: 2rem">
+            Let's talk about your idea, challenge, or growth goal. We'll sketch
+            a clear path forward.
+          </p>
+          <div class="contact-info">
+            <label>Email</label>
+            <p>
+              <a
+                href="mailto:hello@veloxforge.studio"
+                style="color: var(--text); text-decoration: none"
+                >hello@veloxforge.studio</a
+              >
+            </p>
+          </div>
+          <div class="contact-info">
+            <label>Location</label>
+            <p>Auckland, New Zealand</p>
+          </div>
+          <div class="contact-info">
+            <label>Availability</label>
+            <p>
+              We take on 3–4 projects per quarter to ensure quality focus and
+              delivery speed.
+            </p>
+          </div>
         </div>
+        <div class="contact-right">
+          <form class="contact-form" onsubmit="return handleSubmit(event);">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Email address" required />
+            <input type="text" placeholder="Company / Project" />
+            <textarea
+              placeholder="Tell us about your project or goal..."
+            ></textarea>
+            <button class="btn-primary" type="submit">Send Inquiry</button>
+          </form>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <div style="flex: 1; text-align: left;">© 2026 Velox Forge. Velocity Meets Precision.</div>
-            <ul class="footer-nav">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#approach">Approach</a></li>
-                <li><a href="#capabilities">Capabilities</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+      <div class="footer-content">
+        <div style="flex: 1; text-align: left">
+          © 2026 Velox Forge. Velocity Meets Precision.
         </div>
+        <ul class="footer-nav">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Approach</a></li>
+          <li><a href="#capabilities">Capabilities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
