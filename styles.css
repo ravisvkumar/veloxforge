@@ -258,7 +258,7 @@ nav a:hover {
 }
 
 .frame-ticks.right {
-  right: -70px;
+  right: -72px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -266,6 +266,22 @@ nav a:hover {
   bottom: -28px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/* On smaller screens the frame is centered in a full-width column, so
+   the negative offsets push the labels off-screen / over the image.
+   Tuck them just inside the frame corners instead. */
+@media (max-width: 1000px) {
+  .frame-ticks.right {
+    right: 12px;
+    top: 12px;
+    transform: none;
+  }
+  .frame-ticks.bottom {
+    bottom: 12px;
+    left: 12px;
+    transform: none;
+  }
 }
 
 .crosshair {
